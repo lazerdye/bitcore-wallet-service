@@ -3,6 +3,8 @@
 mkdir -p logs
 mkdir -p pids
 
+export BWS_PORT=$PORT
+
 # run_program (nodefile, pidfile, logfile)
 run_program ()
 {
